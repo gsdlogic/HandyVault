@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{533E9D7D-3C25-4A1D-8B9E-C556CA1F03A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyVault.IdentityService", "Services\HandyVault.IdentityService\HandyVault.IdentityService.csproj", "{E970D248-6904-454B-A39D-F5C760EA8EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyVault.WebApiService", "Services\HandyVault.WebApiService\HandyVault.WebApiService.csproj", "{94B31E53-ED5C-4886-AF36-5B6695B51D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E970D248-6904-454B-A39D-F5C760EA8EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E970D248-6904-454B-A39D-F5C760EA8EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E970D248-6904-454B-A39D-F5C760EA8EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E970D248-6904-454B-A39D-F5C760EA8EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B31E53-ED5C-4886-AF36-5B6695B51D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B31E53-ED5C-4886-AF36-5B6695B51D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B31E53-ED5C-4886-AF36-5B6695B51D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B31E53-ED5C-4886-AF36-5B6695B51D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E970D248-6904-454B-A39D-F5C760EA8EF5} = {533E9D7D-3C25-4A1D-8B9E-C556CA1F03A1}
+		{94B31E53-ED5C-4886-AF36-5B6695B51D22} = {533E9D7D-3C25-4A1D-8B9E-C556CA1F03A1}
+	EndGlobalSection
+EndGlobal
